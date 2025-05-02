@@ -1,11 +1,7 @@
 import homeSliderImageModel from "../../models/homeSliderImage.model.js";
 
-import ImageKit from "imagekit";
-var imagekit = new ImageKit({
-  publicKey: "public_E1gulLPW2Y+GnhfOY2fgVpa5E4c=",
-  privateKey: "private_lPOr94BnX/3oSsvad3chDX27EXA=",
-  urlEndpoint: "https://ik.imagekit.io/fhbne9pox/",
-});
+import initImagekit from "../../utils/imagekit.js";
+const imagekit = initImagekit();
 
 export const homeSliderImage = async (req, res) => {
   try {

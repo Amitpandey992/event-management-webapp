@@ -1,14 +1,9 @@
 import express from "express";
 import GalleryPhoto from "../../models/GalleryPhoto.js";
-import ImageKit from "imagekit";
+import initImagekit from "../../utils/imagekit.js";
+const imagekit = initImagekit();
 
 const router = express.Router();
-
-var imagekit = new ImageKit({
-  publicKey: "public_E1gulLPW2Y+GnhfOY2fgVpa5E4c=",
-  privateKey: "private_lPOr94BnX/3oSsvad3chDX27EXA=",
-  urlEndpoint: "https://ik.imagekit.io/fhbne9pox/",
-});
 
 router.get("/allgalleryphotos", async (req, res) => {
   try {

@@ -1,15 +1,11 @@
 import express from "express";
 import Event from "../../models/Event.js";
-import ImageKit from "imagekit";
-var imagekit = new ImageKit({
-  publicKey: "public_E1gulLPW2Y+GnhfOY2fgVpa5E4c=",
-  privateKey: "private_lPOr94BnX/3oSsvad3chDX27EXA=",
-  urlEndpoint: "https://ik.imagekit.io/fhbne9pox/",
-});
+import initImagekit from "../../utils/imagekit.js";
+const imagekit = initImagekit();
 
 const router = express.Router();
 
-// gett all events
+// get all events
 router.get("/allevents", async (req, res) => {
   try {
     const events = await Event.find();

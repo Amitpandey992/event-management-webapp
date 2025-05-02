@@ -653,23 +653,6 @@ const Home = () => {
                 </h4>
               </div>
             </div>
-            <div>
-              <div className="flex flex-col items-center">
-                <div className="mt-4">
-                  <p className="text-gray-800">
-                    Stress-Free Planning, Stunning Results" "As someone who
-                    dreads planning events, working with The Rox was a
-                    revelation. They took all the stress off my shoulders and
-                    handled everything with grace and precision. Their vendor
-                    connections and creative touch made my milestone birthday
-                    celebration unforgettable. It was like they read my mind!
-                  </p>
-                </div>
-              </div>
-              <div className="mt-6">
-                <h4 className="text-base text-gray-800">— Priya Maheshwari</h4>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -746,15 +729,18 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-2 text-gray-800">
                 Email Us
               </h3>
-              <p className="text-gray-600">theroxeventorganisers@gmail.com</p>
+              <p className="text-gray-600">pandeyamit9340@gmail.com</p>
             </div>
             <div className="text-center p-6">
               <Phone className="w-8 h-8 text-blue-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold mb-2 text-gray-800">
                 Call Us
               </h3>
-              <p className="text-gray-600 mb-2">+917772029539</p>
-              <p className="text-gray-600">+917697755793</p>
+              <p className="text-gray-600 mb-2">
+                +917772029539
+                <br />
+                +917697755793
+              </p>
             </div>
             <div className="text-center p-6">
               <MapPin className="w-8 h-8 text-blue-600 mx-auto mb-4" />
@@ -762,9 +748,8 @@ const Home = () => {
                 Visit Us
               </h3>
               <p className="text-gray-600">
-                33 Kalani Nagar, Airport Road, Behind Bank of Baroda,
-                <br />
-                Indore, Madhya Pradesh
+                33 Kalani Nagar, Airport Road, Behind Bank of Baroda, Indore,
+                Madhya Pradesh
               </p>
             </div>
           </div>
@@ -798,7 +783,7 @@ const Home = () => {
       </footer>
       <div className=" text-center py-6 border-t border-gray-400">
         <p className="text-gray-800">
-          All Rights Reserved © 2024 TheRoxeventorganisers.com
+          All Rights Reserved © 2024 TheRox. Created by Amit pandey
         </p>
       </div>
     </div>

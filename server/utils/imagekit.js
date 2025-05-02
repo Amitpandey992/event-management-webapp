@@ -1,14 +1,16 @@
 // SDK initialization
+import dotenv from "dotenv";
+dotenv.config(); 
 
 import ImageKit from "imagekit";
 
 const initImagekit = () =>{
 
     var imagekit = new ImageKit({
-        publicKey : process.env.PUBLICKEY_IMAGEKIT,
-        privateKey :process.env.PRIVATEKEY_IMAGEKIT,
-        urlEndpoint : process.env.ENDPOINT_IMAGEKIT
-    });
+        publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
+        privateKey: process.env.IMAGEKIT_PRIVATE_KEY,
+        urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
+      });
 
    return imagekit;
 }
