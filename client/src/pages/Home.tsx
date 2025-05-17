@@ -376,7 +376,7 @@ const Home = () => {
           <div className="fixed bottom-4 left-4 flex flex-col gap-3">
             {/* Phone Call Icon */}
             <a
-              href="tel:7772029539"
+              href="tel:7470557582"
               className="bg-yellow-500 text-white p-3 rounded-full shadow-lg transition-transform transform hover:scale-110"
             >
               <FaPhone size={30} />
@@ -384,7 +384,7 @@ const Home = () => {
 
             {/* WhatsApp Icon */}
             <a
-              href="https://web.whatsapp.com/send?phone=7772029539&text=hello i have a query"
+              href="https://web.whatsapp.com/send?phone=7470557582&text=hello i have a query"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white p-3 rounded-full shadow-lg transition-transform transform hover:scale-110"
