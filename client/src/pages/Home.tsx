@@ -146,7 +146,6 @@ const Home = () => {
   const fetchGalleryImages = async () => {
     try {
       const response = await api.get("/admin/gallery/allgalleryphotos");
-      // console.log(response.data, "////////");
       setImages(response.data.data);
     } catch (error) {
       console.log(error);
@@ -313,7 +312,7 @@ const Home = () => {
                 </li>
                 <li className="py-2 lg:py-0">
                   <a
-                    href="/event-form"
+                    href="/Event-form"
                     className="hover:text-blue-600 block transition-all cursor-pointer md:font-semibold md:text-xl"
                   >
                     Book Event
@@ -428,7 +427,7 @@ const Home = () => {
               <button
                 type="button"
                 className="px-6 py-3.5 rounded-md text-gray-100 bg-blue-700 hover:bg-blue-800 transition-all mt-10 cursor-pointer"
-                onClick={() => (window.location.href = "/event-form")}
+                onClick={() => (window.location.href = "/Event-form")}
               >
                 Book Event Now
               </button>
@@ -451,7 +450,7 @@ const Home = () => {
               <button
                 type="button"
                 className="px-6 py-3.5 rounded-md text-gray-100 bg-blue-700 hover:bg-blue-800 transition-all mt-10 cursor-pointer"
-                onClick={() => (window.location.href = "/event-form")}
+                onClick={() => (window.location.href = "/Event-form")}
               >
                 Book Event Now
               </button>
